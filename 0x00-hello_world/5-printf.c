@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-/*main - Entry point
+/*
+ * main - Entry point
  *Return: return is always 0changed to 1
  */
 int main(void)
