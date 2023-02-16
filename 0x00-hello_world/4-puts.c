@@ -2,6 +2,7 @@
 #include <stdio.h> 
 int main()
 {
-	printf("Programming is like building a multilingual puzzle");
+	char word ="Programming is like building a multilingual puzzle";
+	puts(word);
 	return 0;
 }
