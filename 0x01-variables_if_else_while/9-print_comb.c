@@ -7,23 +7,19 @@
 int main(void)
 {
 	int a;
-	char r = ',';
-	char k = '$';
-	char p = ' ';
+	int r = ',';
+	int k = '$';
+	int p = ' ';
 
 	for (a = '0'; a <= '9'; a++)
 	{
 		putchar(a);
-		if (a < '9')
+		if (a <= '8')
 		{
 			putchar(r);
 			putchar(p);
 		}
-		if (a >= '9')
-		{
-			putchar(k);
-		}
 	}
-	putchar('\n');
+	putchar(k);
 	return (0);
 }
