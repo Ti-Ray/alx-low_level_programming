@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - This is the first comment 
+ * main - This is the first comment
  *
  * Return: Return is (0)
  *
