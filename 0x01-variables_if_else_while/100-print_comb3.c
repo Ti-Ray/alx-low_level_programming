@@ -10,7 +10,7 @@ int main(void)
 	int b = ',';
 	int c = ' ';
 
-	for (a = '01'; a <= '99'; a++)
+	for (a = '1'; a <= '99'; a++)
 	{
 		if (a != '10')
 		{
