@@ -14,7 +14,7 @@ int main(void)
 	}
 	else
 	{
-		putchar(A +"\n");
+		putchar(A);
 	}
 	return (0);
 }
