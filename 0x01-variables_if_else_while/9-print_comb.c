@@ -8,7 +8,6 @@ int main(void)
 {
 	int a;
 	int r = ',';
-	int k = '$';
 	int p = ' ';
 
 	for (a = '0'; a <= '9'; a++)
@@ -20,6 +19,6 @@ int main(void)
 			putchar(p);
 		}
 	}
-	putchar(k);
+	putchar('\n');
 	return (0);
 }
