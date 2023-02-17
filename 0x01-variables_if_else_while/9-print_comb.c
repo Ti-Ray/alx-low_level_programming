@@ -7,12 +7,21 @@
 int main(void)
 {
 	int a, b;
+	char r = ', ';
+	char k = '$';
 
 	for (a = '0'; a <= '9'; a++)
 	{
 		putchar(a);
-		putchar(', ');
+		if (a < '9');
+		{
+			putchar(r);
+		}
+		if (a >= '9');
+		{
+			putchar(k);
+		}
 	}
-	putchar('$\n');
+	putchar('\n');
 	return (0);
 }
