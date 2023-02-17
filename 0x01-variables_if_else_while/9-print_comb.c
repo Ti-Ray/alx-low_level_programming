@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int a, b;
+	int a;
 	char r = ',';
 	char k = '$';
 	char p = ' ';
@@ -14,12 +14,12 @@ int main(void)
 	for (a = '0'; a <= '9'; a++)
 	{
 		putchar(a);
-		if (a < '9');
+		if (a < '9')
 		{
 			putchar(r);
 			putchar(p);
 		}
-		if (a >= '9');
+		if (a >= '9')
 		{
 			putchar(k);
 		}
