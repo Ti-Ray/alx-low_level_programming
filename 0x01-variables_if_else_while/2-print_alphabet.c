@@ -6,6 +6,9 @@
  */
 int main(void)
 {
-	putchar(a..z);
+	while (A!='a')
+	{
+		putchar(A);
+	}
 	return (0);
 }
