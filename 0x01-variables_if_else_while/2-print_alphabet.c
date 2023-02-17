@@ -6,13 +6,7 @@
  */
 int main(void)
 {
-	int A = 'a';
-	if (A!='z')
-	{
-		putchar(A);
-		A++;
-	}
-	else
+	for (int A = 'a'; A<'z'; A++)
 	{
 		putchar(A);
 	}
