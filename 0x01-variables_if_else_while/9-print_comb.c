@@ -9,6 +9,7 @@ int main(void)
 	int a, b;
 	char r = ', ';
 	char k = '$';
+	char p = ' ';
 
 	for (a = '0'; a <= '9'; a++)
 	{
@@ -16,6 +17,7 @@ int main(void)
 		if (a < '9');
 		{
 			putchar(r);
+			putchar(p);
 		}
 		if (a >= '9');
 		{
