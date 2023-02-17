@@ -6,11 +6,15 @@
  */
 int main(void)
 {
-	int A;
-	while (A!='a')
+	int A = 'a';
+	if (A!='z')
 	{
 		putchar(A);
 		A++;
+	}
+	else
+	{
+		putchar("\n");
 	}
 	return (0);
 }
