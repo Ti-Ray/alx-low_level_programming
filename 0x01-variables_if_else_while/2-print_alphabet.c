@@ -6,7 +6,8 @@
  */
 int main(void)
 {
-	while (int A; A!='a')
+	int A;
+	while (A!='a')
 	{
 		putchar(A);
 		A++;
