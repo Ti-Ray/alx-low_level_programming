@@ -6,11 +6,17 @@
  */
 int main(void)
 {
-	int A;
+	int A, B, C, D;
+	
+	B = 'e';
+	C = 'q';
 
-	for (A = 'a'; A < 'e'; A < 'q'; A <= 'z'; A++)
+	for (A = 'a'; A <= 'z'; A++)
 	{
-		putchar(A);
+		while (A != 'e' && A != 'q')
+		{
+			putchar(A);
+		}
 	}
 	putchar('\n');
 	return (0);
