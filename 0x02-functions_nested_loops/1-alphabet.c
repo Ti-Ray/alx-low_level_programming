@@ -1,4 +1,4 @@
-#include <unistd.h>
+#include "holberton.h"
 /**
  * main -This is to print the alphabet
  *
@@ -6,10 +6,8 @@
  */
 void print_alphabet(void)
 {
-	int A;
+	char A;
 	for (A = 'a'; A <= 'z'; A++)
-	{
-	 	putchar(A);
-	}
-	putchar('\n');
+	 	_putchar(A);
+	_putchar('\n');
 }
