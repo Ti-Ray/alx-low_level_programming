@@ -4,19 +4,19 @@
  *
  * Returns (0)
  */
-void print_alphabet(void);
-int main (void)
-{
-	print_alphabet();
-	return (0);
-}
 void print_alphabet(void)
 {
 	int A;
-	for (A = 'a'; A < 'z'; A++)
+	for (A = 'a'; A <= 'z'; A++)
 	{
 		putchar(A);
 	}
 	putchar('\n');
+	return (0);
+}
+
+int main (void)
+{
+	print_alphabet();
 	return (0);
 }
