@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main -This is to print the alphabet
+ *print_alphabet -This is to print the alphabet
  *
- * Returns (0)
+ * Returns: Always 0 (success)
  */
 void print_alphabet(void)
 {
@@ -12,7 +12,7 @@ void print_alphabet(void)
 	{
 
 		_putchar(A);
-		A++
+		A++;
 	}
 	_putchar('\n');
 }
