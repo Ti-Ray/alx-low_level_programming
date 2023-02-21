@@ -16,9 +16,3 @@ void print_alphabet(void)
 		try++;
 	}
 }
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
