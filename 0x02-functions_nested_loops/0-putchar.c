@@ -1,9 +1,9 @@
 #define MAIN_H
 #include <stdio.h>
 /**
- * main _This program is for printing _putchar, followed by a new line
+ * main -This program is for printing _putchar, followed by a new line
  *
- * Return - The return value is (0)
+ * Return: - Always 0 (success)
  */
 
 int main(void)
