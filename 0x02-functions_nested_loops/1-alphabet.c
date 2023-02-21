@@ -10,9 +10,10 @@ void print_alphabet(void)
 {
 	char try = 'a';
 
-	while (try < 'z')
+	while (try <= 'z')
 	{
 		putchar(try);
 		try++;
 	}
+	putchar('\n');
 }
