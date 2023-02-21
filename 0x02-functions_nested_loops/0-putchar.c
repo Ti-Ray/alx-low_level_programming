@@ -4,8 +4,11 @@
  *
  * Return - The return value is (0)
  */
+char word(_putchar)
+
 int main(void)
 {
-	printf("_putchar\n");
+	char a = word;
+	putchar(a);
 	return (0);
 }
