@@ -4,9 +4,9 @@
  *
  * Return: Always 0 (success)
  */
-nt _islower(int c)
+int _islower(int c)
 {
-    int r;
+    int r = c;
 
     r = _islower('H');
     _putchar(r + '0');
