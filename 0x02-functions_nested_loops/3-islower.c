@@ -8,7 +8,7 @@ int _islower(int c)
 {
 	int r = c;
 
-	r =_islower('H');
+	r = _islower('H');
 	_putchar(r + '0');
 	r = _islower('o');
 	_putchar(r + '0');
