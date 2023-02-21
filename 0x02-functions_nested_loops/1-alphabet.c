@@ -1,3 +1,4 @@
+#include "main.h"
 #define MAIN_H
 #include <stdio.h>
 
