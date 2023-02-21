@@ -1,11 +1,17 @@
+#define MAIN_H
 #include "main.h"
 
 /**
- * main - check the code
+ * print_alphabet -This is the function to print the alphabet
  *
- * Return: Always 0.
+ * Return: Always 0 (success)
  */
 
+/**
+ * main -This is to print out the alphabet
+ *
+ * Return: Always 0 (success)
+ */
 void print_alphabet(void)
 {
 	char try = 'a';
