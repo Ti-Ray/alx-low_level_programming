@@ -5,9 +5,9 @@
  *
  * Return: Always 0 (sucess)
  */
-int _isalpha(void)
+int _isalpha(int c)
 {
-    int r;
+    int r = c;
 
     r = _isalpha('H');
     _putchar(r + '0');
