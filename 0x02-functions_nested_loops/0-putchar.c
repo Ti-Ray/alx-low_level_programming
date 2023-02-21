@@ -1,3 +1,5 @@
+#ifndef MAIN_H
+#define MAIN_H
 #include <stdio.h>
 /**
  * main _This program is for printing _putchar, followed by a new line
