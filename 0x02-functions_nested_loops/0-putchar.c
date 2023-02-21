@@ -4,7 +4,7 @@
  *
  * Return - The return value is (0)
  */
-char word(_putchar)
+int word(int d);
 
 int main(void)
 {
@@ -12,3 +12,7 @@ int main(void)
 	putchar(a);
 	return (0);
 }
+
+int word((int d)
+{
+	
