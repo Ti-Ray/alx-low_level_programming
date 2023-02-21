@@ -7,12 +7,7 @@
  *
  * Return: Always 0 (success)
  */
-
-/**
- * main -This is to print out the alphabet
- *
- * Return: Always 0 (success)
- */
+char print_alphabet(char c);
 void print_alphabet(void)
 {
 	char try = 'a';
