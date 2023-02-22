@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * _isalpha - This is to print 1110
- *
+ *@c: is the container for the variable
  * Return: Always 0 (sucess)
  */
 int _isalpha(int c)
