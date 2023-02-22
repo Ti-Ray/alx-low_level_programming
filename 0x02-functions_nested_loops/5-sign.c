@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_sign -This is to print + for greater than zero
  * @n: is the variable holder
@@ -26,6 +25,7 @@ int print_sign(int n)
 		_putchar('-');
 		_putchar(',');
 		_putchar(' ');
-		return (-1);
+		_putchar('-');
+		return (1);
 	}
 }
