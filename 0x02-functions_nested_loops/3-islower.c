@@ -5,7 +5,7 @@
  *
  * Return: Always 0 (success)
  */
-int _islower(int c)
+void _islower(int c)
 {
     c = _islower('H');
     putchar(c + '0');
