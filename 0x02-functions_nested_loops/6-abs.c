@@ -4,9 +4,8 @@
  * 
  * Return: Always 0 (success)
  */
-int _abs(int)
+int _abs(int m)
 {
-	int m;
 	if (abs(m) > 0)
 	{
 		return (1);
