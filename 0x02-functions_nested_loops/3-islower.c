@@ -6,16 +6,12 @@
  */
 int _islower(int c)
 {
-	int d, r, y;
-	c = ('H');
-	d = _islower(c);
-	_putchar(d);
-	c = ('o');
-	r = _islower(c);
-	_putchar(r);
-	c = (108);
-	y = _islower(c);
-	_putchar(y);
-	_putchar('\n');
-	return (0);
+	if (c >= 'a' && c <= 'z')
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
