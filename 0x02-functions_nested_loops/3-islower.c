@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * islower -This one displays one is c is lowercase
