@@ -14,7 +14,7 @@ void times_table(void)
 		for (y = 0; y < 10; y++)
 		{
 			int s = x * y;
-			int t = s /10;
+			int t = s / 10;
 			int o = s % 10;
 
 			if (y == 0)
