@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * jack -bauer -This is to print minutes for a day
+ * jack_bauer -This is to print minutes for a day
  *
  * Return: Always 0 (success)
  */
