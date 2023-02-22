@@ -9,13 +9,13 @@ int _islower(int c)
 	int d, r, y;
 	c = ('H');
 	d = _islower(c);
-	_putchar(d + '0');
+	_putchar(d);
 	c = ('o');
 	r = _islower(c);
-	_putchar(r + '0');
+	_putchar(r);
 	c = (108);
 	y = _islower(c);
-	_putchar(y + '0');
+	_putchar(y);
 	_putchar('\n');
 	return (0);
 }
