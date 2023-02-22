@@ -6,12 +6,6 @@
  */
 int print_last_digit(void)
 {
-	int r;
-
-	print_last_digit(98);
-	print_last_digit(0);
-	r = print_last_digit(-1024);
-	_putchar('0' + r);
-	_putchar('\n');
-	return (0);
+	_putchar('0' + _abs(num % 10));
+	return (_abd(num % 10));
 }
