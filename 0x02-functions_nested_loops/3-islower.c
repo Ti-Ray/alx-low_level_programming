@@ -6,14 +6,14 @@
  */
 int _islower(int c)
 {
-	c = 'a';
-	if (c != _islower(c))
-	{
-		_putchar('0');
-	}
-	else
-	{
-		_putchar('1');
-	}
+	c = ('H');
+	d = _islower(c);
+	_putchar(d);
+	c = ('o');
+	r = _islower(r);
+	_putchar(r);
+	c = (108);
+	y = _islower(c);
+	_putchar(y);
 	return (0);
 }
