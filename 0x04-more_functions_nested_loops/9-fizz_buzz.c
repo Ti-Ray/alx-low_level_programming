@@ -4,7 +4,7 @@
  *
  * Return: Always 0
  */
-int main (int i)
+void main(int i)
 {
 	for (i = 0; i <= 100; i++)
 	{
@@ -40,4 +40,5 @@ int main (int i)
 			putchar(i);
 		}
 	}
+	return(0);
 }
