@@ -1,10 +1,11 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main -This is to print all values from '1' to '100' with Fizz in place of multiples of three
  *
  * Return: Always 0
  */
-void main(int i)
+int main(int i)
 {
 	for (i = 0; i <= 100; i++)
 	{
