@@ -35,6 +35,9 @@ int main (int i)
 			putchar('z');
 			putchar(' ');
 		}
-		putchar('0' + i);
+		else
+		{
+			putchar('0' + i);
+		}
 	}
 }
