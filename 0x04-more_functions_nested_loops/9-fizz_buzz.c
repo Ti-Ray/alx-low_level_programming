@@ -37,7 +37,7 @@ int main (int i)
 		}
 		else
 		{
-			putchar('0' + i);
+			putchar(i);
 		}
 	}
 }
